@@ -1,0 +1,45 @@
+{
+  "name": "facturacion-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --exec babel-node",
+    "build": "babel server --out-dir dist",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javisanchez3144/facturacion-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javisanchez3144/facturacion-backend/issues"
+  },
+  "homepage": "https://github.com/javisanchez3144/facturacion-backend#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.3"
+  }
+}
